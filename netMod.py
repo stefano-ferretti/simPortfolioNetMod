@@ -40,6 +40,8 @@ def getNetPartition(corr):
 ##################################################
 """
 Idea: group based on correlation matrix.
+input: a correlatio matrix
+returns: a weight vector 
 """
 def getNetMod(corr):
     partition = getNetPartition(corr)
